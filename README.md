@@ -1,6 +1,114 @@
-# Getting Started with Create React App
+# AI Safety Incident Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, interactive dashboard for tracking and reporting AI safety incidents. This project was created as a take-home assignment for an AI Safety startup.
+
+![AI Safety Incident Dashboard Screenshot](https://i.imgur.com/example.png)
+
+## Features
+
+- **Interactive 3D Background** using Three.js for a modern, engaging UI
+- **Responsive Design** that works on mobile, tablet, and desktop
+- **Persistent Data Storage** using localStorage to maintain incident data between sessions
+- **Filter and Sort Functionality** to easily find relevant incidents
+- **Search Capability** to quickly locate specific incidents
+- **Clean, Modern UI** with smooth animations and transitions
+- **Dark Mode Support** for comfortable viewing in different environments
+- **Accessibility Features** for inclusive user experience
+- **Form Validation** to ensure quality data entry
+
+## Bonus Features
+
+- Interactive 3D models that rotate and animate in the background
+- Toast notifications for user feedback
+- Expandable incident details with smooth animations
+- Dark/Light theme toggle with persistent preference
+- Empty state handling with helpful messages
+- Loading state with animation
+
+## Technologies Used
+
+- React with TypeScript
+- Three.js with React Three Fiber for 3D elements
+- Framer Motion for animations
+- localStorage for data persistence
+- CSS for styling (no UI frameworks used)
+- React Icons for iconography
+
+## Installation and Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ai-safety-dashboard.git
+   cd ai-safety-dashboard
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+## Project Structure
+
+```
+src/
+├── components/         # UI components
+│   ├── Background3D.tsx     # 3D background using Three.js
+│   ├── EmptyState.tsx       # Component shown when no incidents match filters
+│   ├── FilterControls.tsx   # Filtering and sorting controls
+│   ├── IncidentForm.tsx     # Form for reporting new incidents
+│   ├── IncidentItem.tsx     # Individual incident card component
+│   └── ToastNotification.tsx # Notification component
+├── data/               # Mock data
+│   └── mockData.ts          # Initial incident data
+├── services/           # Service layer
+│   └── storageService.ts    # Local storage service for data persistence
+├── types/              # TypeScript type definitions
+│   └── types.ts             # Common type definitions
+├── utils/              # Utility functions
+│   ├── dateUtils.ts         # Date formatting utilities
+│   └── filterUtils.ts       # Filtering and sorting utilities
+├── App.css             # Main application styles
+├── App.tsx             # Main application component
+├── index.css           # Global styles
+└── index.tsx           # Application entry point
+```
+
+## Design Decisions
+
+1. **Three.js Integration**: Added 3D elements to create a modern, visually engaging experience without overwhelming the primary functionality.
+
+2. **Component Architecture**: Organized the application into small, reusable components for better maintainability and code organization.
+
+3. **Local Storage**: Used browser's localStorage API for persistence without requiring a backend, making the application self-contained while fulfilling the requirement for data retention.
+
+4. **Dark Mode**: Implemented a theme toggle to improve accessibility and user comfort.
+
+5. **Inline Validation**: Added form validation to ensure data quality and provide immediate feedback to users.
+
+## Future Improvements
+
+- Add user authentication
+- Implement incident categories and tagging
+- Create data visualization for incident metrics
+- Add editing and deletion functionality
+- Implement keyboard navigation for better accessibility
+- Add unit and integration tests
+
+## License
+
+MIT
+
+
 
 ## Available Scripts
 
