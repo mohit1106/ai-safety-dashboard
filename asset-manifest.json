@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ai-safety-dashboard/static/css/main.9e2dd405.css",
+    "main.js": "/ai-safety-dashboard/static/js/main.e1c2d1d9.js",
+    "static/js/453.8aeae767.chunk.js": "/ai-safety-dashboard/static/js/453.8aeae767.chunk.js",
+    "index.html": "/ai-safety-dashboard/index.html",
+    "main.9e2dd405.css.map": "/ai-safety-dashboard/static/css/main.9e2dd405.css.map",
+    "main.e1c2d1d9.js.map": "/ai-safety-dashboard/static/js/main.e1c2d1d9.js.map",
+    "453.8aeae767.chunk.js.map": "/ai-safety-dashboard/static/js/453.8aeae767.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e2dd405.css",
+    "static/js/main.e1c2d1d9.js"
+  ]
+}
